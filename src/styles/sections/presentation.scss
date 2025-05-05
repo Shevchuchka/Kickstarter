@@ -1,0 +1,24 @@
+.presentation {
+  @include content-grid;
+
+  padding-inline: 12px;
+
+  @include on-tablet {
+    @include content-padding-inline;
+  }
+
+  &__container {
+    grid-column: 1 / -1;
+    width: 100%;
+
+    @include on-desktop {
+      grid-column: 3 / -2;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
