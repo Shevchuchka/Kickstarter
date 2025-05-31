@@ -109,7 +109,6 @@
 
   &__description {
     @extend %text;
-
     @include text-props(16, 24);
 
     margin-top: 20px;

@@ -1,40 +1,56 @@
-# Kickstarter landing page (HARD)
+About project:
 
-**⚠️ Attention: this is a hard landing page for development. We highly recommend choosing this landing page only if you didn't have a lot of troubles with previous homework tasks and if you sent all homework in time (didn't miss deadlines).** 
+'Crazybaby Landing Page'
 
-Implement landing page according to [Figma design](https://www.figma.com/file/Ujp7bCFuvuJlkn8TSbQPSZ/%E2%84%9611-(kickstarter)?node-id=19655%3A33) - Use BEM and SCSS
-- The design 1440px
-- Desktop 1280px
-- Tablet 640px
-- Mobile (> 320px)
+The Crazybaby landing page is a promotional web page designed to showcase and market Crazybaby products, such as innovative audio gear or lifestyle tech. Its purpose is to attract potential customers, highlight key product features, and facilitate communication through a contact form. The page focuses on brand awareness and customer engagement without requiring user sign-up or phone contact.
 
-1. Implement the header with `nav`.
-1. Implement `Benefits` block.
-1. Implement `Presentation` block.
-1. Implement `About us` block.
-1. Implement `Technology` block.
-1. Implement `Testimonilas` block.
-1. Implement `Features` block.
-1. Implement `Questions` block
-1. Implement the footer.
+Design Mock-up: https://www.figma.com/file/Ujp7bCFuvuJlkn8TSbQPSZ/%E2%84%9611-(kickstarter)?node-id=19655%3A33
 
+Live Demo: https://shevchuchka.github.io/Kickstarter/
 
-## Github flow
+Technologies Used:
 
-1. **Fork** the repo.
-2. **Clone** the forked one. (The project link should have your name but not `mate-academy`)
-3. Run `npm install` (or just `npm i`)
-4. Run `npm start`.
-5. Open one more terminal window for the next steps
-6. `git checkout -b develop` - to create new branch and switch on it
-7. Write you code in `src` folder
-8. Run `npm run lint` and fix code style errors.
-9. Run `npm run deploy` to deploy your solution to `gh-pages`
-10. `git add . && git commit -m 'solution'` to save your changes
-11. `git push origin develop` - to send you code for PR
-12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-13. Replace `<your_account>` with your Github username in the
-  [DEMO LINK](https://<your_account>.github.io/Kickstarter/)
-14. Copy `DEMO LINK` to the PR description
+  Core Technologies
+- Parcel (v2.10.2) – Build tool
 
-> To update you PR repeat steps 7-11
+  Styling & UI
+- SCSS – Styling
+- Swiper (v11.2.6) – Library for creating carousels
+
+  Linting and Code Quality
+- ESLint (v8.54.0) – JavaScript analysis
+- Stylelint (v15.11.0) – Style analysis
+- Prettier (v3.5.3) – Automatic code formatting
+- Cypress (v13.17.0) – End-to-end testing
+
+Additional Utilities
+- @parcel/transformer-sass (v2.10.2) – SCSS compilation
+
+Getting Started:
+
+- clone the repository:
+  git clone https://github.com/Shevchuchka/Kickstarter.git
+  cd Kickstarter
+- install dependencies:
+  npm install or yarn install
+- run the project locally:
+  npm start or yarn start
+
+  Features:
+
+- Responsive Design — support for different screen sizes (320px, 744px, 1200px+)
+- Mobile-First Design — design approach prioritizing mobile devices for optimal performance and usability on small screens
+- Hero Section — a visually striking first section featuring an image, text, and call-to-action button to grab user attention immediately
+- Articles Slider on <744px — a slider component displaying articles or content cards on screens smaller than 744px for better mobile usability
+- Animations & Transitions — smooth visual effects on hover, load, and other interactions to enhance user experience
+- Hover Effects — custom styles applied when the user hovers over interactive elements, providing visual feedback
+- Interactive Buttons — buttons with active and hover states to improve usability and indicate interactivity
+- Contact Form — a form allowing users to send messages or inquiries, with backend handling of submissions
+- Form Validation — validation of form fields (required fields, email format, length checks) to ensure correct user input
+- Anchor Links / Smooth Scroll — smooth scrolling navigation to different sections of the page when anchor links are clicked
+- Back to Top Button — a button that quickly scrolls the user back to the top of the page for easier navigation
+- Lazy Loading — defers loading of off-screen images until the user scrolls near them, improving page load performance
+- Semantic HTML — proper use of HTML tags to improve SEO and accessibility by clearly defining the page structure
+- Favicon & App Icons — icons displayed in browser tabs and on mobile devices for branding and easy identification
+- ARIA Attributes — accessibility attributes added to elements to assist screen readers and improve usability for users with disabilities
+- Translate Feature — ability to switch or display content in multiple languages for wider audience reach and better user experience
