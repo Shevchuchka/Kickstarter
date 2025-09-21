@@ -6,7 +6,7 @@ const {
   setUABtn,
 } = require('../scripts/modules/toggleLang.js');
 
-const { pageElement, checkNumFunc, articleNums } = require('./modules/featuresSwiperPagination.js');
+const { pageElement, checkNumFunc } = require('./modules/featuresSwiperPagination.js');
 
 const { prevBtn, nextBtn, activeArticle } = pageElement;
 const { checkNum } = checkNumFunc;

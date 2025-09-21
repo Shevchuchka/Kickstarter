@@ -29,11 +29,12 @@
 
   &__additional {
     margin-right: 30px;
+    // justify-content: space-around;
 
     @include on-desktop {
       display: flex;
       grid-column: 10 / -1;
-      justify-content: space-between;
+
       margin: 0;
     }
   }

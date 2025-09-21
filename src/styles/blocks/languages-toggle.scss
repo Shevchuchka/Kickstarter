@@ -6,9 +6,17 @@
   &__option {
     font-family: 'Helvetica Neue Regular', sans-serif;
     font-size: 14px;
-    line-height: 18px;
+    line-height: $header-elements-highte;
     color: $grey-33;
     text-transform: uppercase;
+
+    &--en {
+      padding-left: 10px;
+    }
+
+    &--ua {
+      padding-right: 10px;
+    }
   }
 }
 
