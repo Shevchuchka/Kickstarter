@@ -7,6 +7,10 @@
     background-color: $grey-f7;
   }
 
+  &:has(.page__menu:target) {
+    overflow: hidden;
+  }
+
   &__menu {
     pointer-events: none;
 
@@ -19,6 +23,7 @@
     opacity: 0;
 
     transition: all 0.3s;
+
 
     &:target {
       pointer-events: all;
